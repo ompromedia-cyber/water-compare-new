@@ -1,0 +1,1 @@
+import WaterRadar from './components/WaterRadar';export default ()=> <WaterRadar/>

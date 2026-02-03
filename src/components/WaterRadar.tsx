@@ -1,0 +1,1 @@
+export default function WaterRadar(){return <div>Mockup integrated</div>}
