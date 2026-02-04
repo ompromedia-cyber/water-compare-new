@@ -15,7 +15,7 @@ import {
   DropdownMenuTrigger,
   DropdownMenuContent,
   DropdownMenuItem,
-} from "@/components/ui/DropdownMenu";
+} from "@/components/ui/dropdown-menu";
 
 /* Иконки */
 import { Lock, Info, Languages } from "@/components/ui/icons";
