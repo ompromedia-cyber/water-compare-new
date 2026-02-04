@@ -6,6 +6,10 @@ import { GlassCard } from "@/components/ui/GlassCard";
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/Tabs";
 import { TooltipProvider } from "@/components/ui/TooltipProvider";
 import { Input } from "@/components/ui/input";
+import { Slider } from "@/components/ui/slider";
+import { Tooltip } from "@/components/ui/tooltip";
+import { Dialog } from "@/components/ui/dialog";
+import { Table } from "@/components/ui/table";
 import {
   DropdownMenu,
   DropdownMenuTrigger,
