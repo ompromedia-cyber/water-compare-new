@@ -1,4 +1,22 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
+
+import React, { useState, useMemo, useEffect } from "react";
+
+/* UI компоненты */
+import { Button } from "@/components/ui/Button";
+import { GlassCard } from "@/components/ui/GlassCard";
+import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/Tabs";
+import { TooltipProvider } from "@/components/ui/TooltipProvider";
+import {
+  DropdownMenu,
+  DropdownMenuTrigger,
+  DropdownMenuContent,
+  DropdownMenuItem,
+} from "@/components/ui/DropdownMenu";
+
+/* Иконки */
+import { Lock, Info, Languages } from "@/components/ui/icons";
+
 import { AnimatePresence, motion } from "framer-motion";
 import {
   AlertTriangle,
